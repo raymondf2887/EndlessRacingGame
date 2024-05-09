@@ -81,8 +81,6 @@ def verts(x, y, z, n):
 
 
 forced = False
-
-
 def Cube(vx, vy, vz, block):
     if not forced:
         glBegin(GL_QUADS)
@@ -307,7 +305,7 @@ glEnable(GL_LIGHT0)
 glLightfv(GL_LIGHT0, GL_AMBIENT, [0.5, 0.5, 0.5, 1])
 glLightfv(GL_LIGHT0, GL_DIFFUSE, [1.0, 1.0, 1.0, 1])
 
-
+# load sphere object
 sphere = gluNewQuadric()
 
 # player sphere coords
@@ -330,7 +328,7 @@ mouseMove = [0, 0]
 pygame.mouse.set_pos(displayCenter)
 
 
-loadTexture('_file_assets/tx_lines.png')
+loadTexture('tx_lines.png')
 
 # set up text variables
 Greentxt = (0, 255, 0, 255)
@@ -349,7 +347,7 @@ sphere_angle = 0
 acceleration = 0.05
 speed = 0.4
 lenght = 50 # lenght
-width = 10 #  width of each plane
+width = 10 # width of each plane
 
 wert = 0
 wert1 = lenght
