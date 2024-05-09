@@ -1,4 +1,4 @@
-# EndlessRacingGame
+# Endless Racing Game
 A EndlessRacingGame made with Pygame &amp; Pyopengl
 
 
